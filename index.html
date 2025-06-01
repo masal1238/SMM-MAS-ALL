@@ -1,0 +1,145 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MAS AL STORE - Jasa Suntik Followers</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    * {
+      box-sizing: border-box;
+      margin: 0; padding: 0;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background: rgba(0,0,0,0.2);
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    main {
+      flex: 1;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      font-weight: 600;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+      text-shadow: 0 0 8px rgba(0,0,0,0.3);
+    }
+    .service-list {
+    	display: flex;
+      gap: 30px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .service-card {
+      background: rgba(255,255,255,0.1);
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      width: 280px;
+      padding: 25px 20px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+    }
+    .service-card h3 {
+      margin-bottom: 12px;
+      font-size: 1.5rem;
+      color: #ffd700;
+      text-shadow: 0 0 8px #ffd700;
+    }
+    .service-card p {
+      font-size: 1rem;
+      line-height: 1.4;
+      color: #eee;
+      margin-bottom: 20px;
+      min-height: 60px;
+    }
+    .order-btn {
+      background: #ffd700;
+      color: #4b4b00;
+      font-weight: 600;
+      padding: 12px 25px;
+      border-radius: 40px;
+      text-decoration: none;
+      display: inline-block;
+      box-shadow: 0 4px 12px rgba(255, 215, 0, 0.6);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .order-btn:hover {
+      background: #ffec3d;
+      box-shadow: 0 6px 20px rgba(255, 236, 61, 0.9);
+    }
+    ul {
+      max-width: 600px;
+      margin: 40px auto;
+      list-style: none;
+      padding-left: 20px;
+      color: #fff;
+      text-shadow: 0 0 5px rgba(0,0,0,0.4);
+    }
+    ul li {
+      margin-bottom: 15px;
+      font-size: 1.1rem;
+      position: relative;
+      padding-left: 25px;
+    }
+    ul li::before {
+      content: '✔';
+      position: absolute;
+      left: 0;
+      color: #ffd700;
+      font-weight: 700;
+    }
+    footer {
+      background: rgba(0,0,0,0.3);
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 0.9rem;
+      color: #eee;
+      box-shadow: inset 0 1px 3px rgba(255,255,255,0.1);
+    }
+    @media(max-width: 650px) {
+      .service-list {
+        flex-direction: column;
+        align-items: center;
+      }
+      .service-card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>MAS AL STORE - Jasa Suntik Followers</header>
+  <main>
+    <h2>Layanan Kami</h2>
+    <div class="service-list">
+      <div class="service-card">
+        <h3>Instagram Followers</h3>
+        <p>Tambah followers Instagram asli dan aktif. Cepat & aman.</p>
+        <a href="https://wa.me/6281234567890" target="_blank" class="order-btn">Pesan via WhatsApp</a>
+      </div>
+      <div class="service-card">
+        <h3>Facebook Likes</h3>
+        <p>Tambah likes untuk halaman dan posting Facebook kamu.</p>
